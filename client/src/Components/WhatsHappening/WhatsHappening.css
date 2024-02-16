@@ -1,0 +1,22 @@
+.whats-happening {
+    width: 100%;
+    padding: 0.5rem 0.6rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+.whats-happening h2 {
+    margin: 1rem 0;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(162, 159, 159, 0.416);
+    padding-bottom: 0.5rem;
+}
+.see-more {
+    font-size: 14px;
+    cursor: pointer;
+    color: blue;
+}

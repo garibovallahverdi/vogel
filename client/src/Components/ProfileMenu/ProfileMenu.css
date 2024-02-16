@@ -1,0 +1,32 @@
+.profile-menu {
+    width: 95%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1rem 2rem 1rem 1rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-menu  ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.profile-menu  ul li{
+    position: relative;
+}
+.profile-menu > svg {
+    font-size: 1.4rem;
+    color: gray;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.profile-menu > svg:hover {
+    transform: rotate(180deg);
+}
+.profile-menu  .active::after {
+    position: absolute;
+    top: 150%;
+}

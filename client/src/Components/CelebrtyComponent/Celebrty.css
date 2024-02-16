@@ -1,0 +1,32 @@
+
+.celebrty-component {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+    padding-bottom: 1rem;
+}
+.celebrty-image{
+    width: 4rem;
+    height: 4rem;
+}
+.celebrty-content {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.celebrty-content .celebrty-message{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+.celebrty-content .type {
+    color: grey;
+    font-size: 11px;
+}
+
+.celebrty-content .hashtag {
+    color: blue;
+    font-size: 12px;
+}

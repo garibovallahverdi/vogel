@@ -1,0 +1,38 @@
+.register-form {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+    justify-content: center;
+}
+.register-form > form {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    gap: 1rem;
+}
+.register-form > form input{
+height: 45px;
+border-radius: 5px;
+border: 1px solid gray;
+padding-left: 0.5rem;
+font-size: 1rem;
+ 
+}
+.register-form > form > div {
+    height: 0.5rem;
+    width: 100%;
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+.register-form h1{
+    margin-bottom: 2rem;
+    width: 70%;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.register-form span {
+    color: #adb5bd;
+}

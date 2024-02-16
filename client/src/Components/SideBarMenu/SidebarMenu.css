@@ -1,0 +1,146 @@
+.sidebar {
+    flex-direction: column;
+    width: 20%;
+    height: 100vh;
+    padding-top: 4rem;
+    padding-right: 1rem;    
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    box-shadow: 5px 1px 5px 0px rgba(0,0,0,0.1);
+    position: fixed;
+    overflow: scroll;
+    background-color: white;
+    left: 0;
+    /* transform: translateX(-150%) !important; */
+    top: 0;
+    transition: 0.5s;
+}
+.sidebar > .logo {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar-menu {
+    width: 100%;
+    align-self: flex-end;
+}
+.sidebar-menu > .menu {
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+.menu li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 0.4rem 1rem;
+    border-radius: 15px;
+}
+.menu li a{
+    width: 100%;
+    height: 100%;
+}
+.menu li span{
+    font-size: 18px;
+}
+
+.menu li svg{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.menu .dropdown {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.menu li:hover {
+    background-color: rgb(242, 244, 244);
+    
+}
+.menu .dropdown > div {
+    display: flex;
+    padding: 0.4rem 1rem;
+    width: 100%;
+    gap:0.5rem;
+    align-items: center;
+    border-radius: inherit;
+    height: 100%;
+
+}
+.menu .dropdown  span +svg{
+    transform: translateX(350%);
+    font-size: 1rem;
+}
+.pages {
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0.7rem 0;
+}
+.pages li {
+    font-size: 15px;
+}
+.dropdown:hover > div 
+{
+    background-color: rgb(242, 244, 244);
+
+
+}
+
+.signin {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(61, 76, 248);
+
+}
+.profile_pic  img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.prof-menu img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+@media screen and (max-width:1200px) {
+    .sidebar {
+        z-index: 999;
+        width: 40%;
+        position: fixed;
+        overflow: visible;
+    transform: translateX(-150%) !important;
+
+
+    }
+    .sidebar li span {
+        font-size: 15px;
+    }
+
+    .sidebar li svg {
+        width: 1rem;
+        height: 1rem;
+    }
+    .open-sidebar {
+        transform: translateX(0) !important;
+    }
+
+    
+}
+
+@media screen and (max-width:600px) {
+    .sidebar {
+        z-index: 999;
+        width: 90%;
+    }
+}

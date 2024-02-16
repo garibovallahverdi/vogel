@@ -1,0 +1,49 @@
+.container-layout {
+    width: 100%;
+}
+.Layout {
+    width:90%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.main-container {
+    width: 60%;
+    padding: 0 1rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.right-container {
+    width: 20%;
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    top: 0;
+    overflow: auto;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -5px 1px 5px 0px rgba(0,0,0,0.1);
+    background-color: white;
+
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+   .right-container {
+    display: none;
+   }
+   .Layout {
+    width: 100%;
+   }
+
+   .main-container {
+    width: 100%;
+   }
+}

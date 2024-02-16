@@ -1,0 +1,27 @@
+.profile-about {
+    width: 100%;
+}
+
+.profile-about .about-info {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.profile-about .about-info > div {
+    display: flex;
+    width: 400px;
+}
+.profile-about .about-info > div p{
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+    width: 10rem;
+}
+
+.profile-about .about-info > div span{
+    font-size: 20px;
+}

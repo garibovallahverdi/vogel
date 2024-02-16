@@ -1,0 +1,22 @@
+.follow-slider {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.follow-slider > p {
+    font-size:15px ;
+    font-weight: 600;
+}
+
+.main-carousel{
+    display: flex;
+    justify-content: space-between;
+
+}
+.carousel-cell {
+    width: 15%;
+}

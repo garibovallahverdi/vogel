@@ -1,0 +1,210 @@
+.post {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    background-color: rgb(255, 253, 253);
+    box-shadow: 0px 54px 55px 21px rgba(0,0,0,0.1);
+    padding-top: 0.5rem;
+
+}
+.post-user-image {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    align-self: flex-start;
+}
+.post-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.post-image {
+    width: 100%;
+    margin: 0 auto;
+    /* height: 15rem; */
+
+}
+.post-image > img {
+    object-fit: contain;
+}
+
+.user-post-content{
+display: flex;
+width: 100%;
+flex-direction: column;
+align-self: flex-end;
+padding: 1rem;
+gap: 2rem;
+}
+.user-head {
+    display: flex;
+    justify-content: space-between;
+}
+.post-user-name {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+.post-user-name > span{
+    color: blue;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+}
+.more-icon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.reaction-component{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.reaction-component > span {
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+}
+.reaction-component  svg {
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: grey;
+}
+
+.post-settings {
+    position: relative;
+}
+.post-settings >ul {
+    position: absolute;
+    top: 100;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 15px 55px 10px rgba(0,0,0,0.1);
+     right: -100%;
+     display: none;
+     width: 6rem;
+}
+
+.post-settings >ul >li {
+    width: 100%;
+    cursor: pointer;
+    padding: 0 0.3rem;
+}
+
+.post-settings >ul >li:hover {
+    background-color: beige;
+}
+
+.comments-conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    height: auto;
+    padding: 0.5rem;
+    align-items: flex-end;
+}
+.comment-box {
+    display: flex;
+    gap: 0.5rem;
+    width: 90%;
+    align-items: center;
+    height: auto;
+    padding: 0.5rem 0.8rem;
+    border-radius: 15px;
+    background-color: rgb(236, 237, 237);
+
+}
+.comment-content{
+    width: 100%;
+    align-items: center;
+    gap: 2rem;
+
+}
+.comment-username {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    position: relative;
+}
+.user-image {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.comment-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.comment-username >svg {
+    right: 5px;
+}
+.comment-username > p {
+    font-size: 12px;
+    font-weight: 600;
+    color: cadetblue;
+}
+.comment-username >span {
+    font-size: 11px;
+}
+.comment-text > p {
+    padding: 0 0.5rem;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 0.4rem;
+    width: 90%;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width:1200px) {
+    .post p {
+        font-size: 12px;
+    }
+
+    .post span {
+        font-size:10px
+    }
+.reaction-component  svg {
+    width: 0.7rem;
+}
+.comments img{
+    width: 1.2rem;
+    height: 1.2rem;
+
+}
+.comments {
+    height: 1rem;
+}
+
+.comments input{
+    height: 0.5rem;
+}
+}
+
+
+@media screen and (max-width:768px) {
+
+    .post p {
+        font-size: 10px;
+    }
+}

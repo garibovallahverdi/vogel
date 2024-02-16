@@ -1,0 +1,39 @@
+.search {
+    width: 90%;
+    margin: 1rem auto;
+
+}
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+    border-radius: 15px;
+
+
+}
+.search-box >  input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 2.2rem;
+
+}
+
+.search-box > svg{
+    position: absolute;
+    font-size: 1.5rem;
+    left: 10px;
+    color: blue;
+}
+
+.searching-item {
+    width: 95%;
+    margin:  0 auto;
+    background-color: aqua;
+}

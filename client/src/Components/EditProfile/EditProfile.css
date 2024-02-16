@@ -1,0 +1,79 @@
+.edit-profile-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.edited-boxes {
+    width: 95%;
+    background-color: white;
+    box-shadow: 0px 15px 45px 13px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 1rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+.edited-boxes > p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.edited-boxes .main-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.edit-box {
+    width: 90%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items:center;
+    flex-direction: column;
+
+}
+.main-info > label {
+    margin-bottom: 0.4rem;
+    font-size: 15px;
+    margin-left: 0.5rem;
+}
+.edit-box  input {
+    width: 100%;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+}
+.edit-box > .save {
+    padding: 0.3rem 2rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.edit-box > .save:hover {
+    background-color: blue;
+    color: white;
+}
+.password-block {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.password-block >input {
+    width: 100%;
+}
+
+.password-block label {
+    margin-bottom: 0.5rem;
+}
+
+.edit-profile-image {
+    width: 6rem;
+    height: 6rem;
+}

@@ -1,0 +1,13 @@
+.Profile-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+.own-profile-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+}

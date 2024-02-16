@@ -1,0 +1,18 @@
+@media screen and (max-width:768px) {
+.register-form {
+    width: 80%;
+    padding: 1rem;
+}
+.register-form >h1 {
+    font-size: 30px;
+    margin: 2rem auto;
+    width: 100%;
+}
+}
+
+@media screen and (max-width:1024px) {
+    .register-form {
+        width: 100%;
+        padding: 2rem;
+
+    }}

@@ -1,0 +1,98 @@
+.user-message-box {
+    width: 100%;
+    margin: 0 auto;
+    height: 80vh;
+    top: 0;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user-message-header{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    border-radius: 20px 20px 0  0;
+    background-color: rgb(177, 174, 236);
+}
+.user-message-header-image {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.user-message-header-name{
+}
+.user-message-header-name > p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.user-message-header-name > span{
+    font-size: 13px;
+}
+
+.send-message-input {
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    background-color: rgb(177, 174, 236);
+    padding: 0.4rem;
+    align-items: center;
+}
+
+.send-message-input > input {
+    width: 100%;
+    height: 2rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 0.4rem 3.4rem 0.4rem 1rem;
+}
+.send-message-input > svg {
+    width: 3rem;
+    height: 2rem;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    right: 7px;
+    background-color: rgb(177, 174, 236);
+    color: rgb(81, 81, 244);
+}
+.writen-messages {
+   height: 85%;
+   width: 100%;
+   overflow: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   padding: 0.5rem 1rem;
+}
+
+.msg {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 1rem 0.2rem 0.3rem;
+    width: 100%;
+    gap: 0.5rem;
+
+}
+
+.msg p {
+    background-color: rgb(159, 253, 251);
+    padding: 0.3rem 0.5rem;
+    border-radius: 15px; 
+}
+.msg .from-who-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    border-radius: 50%;
+}
+
+.msg.odd {
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}

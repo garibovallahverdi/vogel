@@ -1,0 +1,25 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.login-left{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+.login-left > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.login-right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

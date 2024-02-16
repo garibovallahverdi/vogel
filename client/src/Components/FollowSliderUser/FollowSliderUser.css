@@ -1,0 +1,27 @@
+.follow-user-componnt {
+    display: flex;
+    width: max-content;
+    padding: 0.5rem 0.6rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    background-color: rgb(245, 251, 249);
+    border-radius: 10px;
+    box-shadow: 0px 15px 65px 23px rgba(0,0,0,0.1);
+
+}
+.follow-user-image {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.follow-user-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.follow-user-name span{
+    font-size: 11px;
+}

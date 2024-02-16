@@ -1,0 +1,25 @@
+
+
+@media screen and (max-width:768px) {
+    .login-left{
+        display: none;
+    }
+    .login-right {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    
+
+}
+
+@media screen and (max-width:1024px) {
+    .login-left{
+        width: 30%;
+    }
+
+    .login-right {
+        width: 80%;
+    }
+    
+}

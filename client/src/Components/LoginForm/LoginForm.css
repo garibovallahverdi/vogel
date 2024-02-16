@@ -1,0 +1,78 @@
+.login-form {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+    justify-content: center;
+}
+.login-form > form {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    gap: 1rem;
+}  
+.login-form > form input{
+height: 45px;
+border-radius: 5px;
+border: 1px solid gray;
+padding-left: 0.5rem;
+font-size: 1rem;
+ 
+}
+.login-form > form > div {
+    height: 0.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.login-form h1{
+    margin-bottom: 2rem;
+    width: 70%;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.googleAuth{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+.googleAuth >div{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 2rem 0;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    color: white;
+    font-weight: 600;
+    gap: 3rem;
+    
+}
+.googleAuth >div:nth-of-type(1){
+    background-color: #0d66ff;
+}
+.googleAuth >div:nth-of-type(2){
+    background-color: #3b5999;
+}
+.facebookIcon,.googleIcon{
+    font-size: 20px ;
+    padding: 0.4rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.facebookIcon{
+    color: #108ae3
+}
+.googleAuth >span{
+    align-self: center;
+}
+.login-form span {
+    color: #adb5bd;
+}

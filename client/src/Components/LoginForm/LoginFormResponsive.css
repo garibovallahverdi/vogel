@@ -1,0 +1,30 @@
+
+
+@media screen and (max-width:768px) {
+    .login-form {
+        width: 80%;
+        padding: 1rem;
+    }
+      
+    .login-form >h1 {
+        font-size: 30px;
+        margin: 2rem auto;
+        width: 80%;
+    }   
+    .googleAuth > div{
+        font-size: 15px;
+        gap: 1rem !important;
+    }  
+}
+
+@media screen and (max-width:1024px) {
+    .login-form {
+        width: 100%;
+        padding: 1rem;
+
+    }
+    .googleAuth >div{
+        font-size: 18px;
+        gap: 8rem;
+    }
+}

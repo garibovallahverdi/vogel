@@ -1,0 +1,24 @@
+.people {
+    width: 100%;
+    /* height: 200vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.people > div {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 15px 65px 23px rgba(0,0,0,0.1);
+    padding: 1rem;
+    grid-area: 0.7rem;
+}
+
+.youCanFollowUser > p {
+    margin: 1rem 0;
+    font-size: 18px;
+    font-weight: 600;
+}

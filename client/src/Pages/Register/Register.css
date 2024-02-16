@@ -1,0 +1,25 @@
+.register {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.register-left{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+.register-left > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.register-right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

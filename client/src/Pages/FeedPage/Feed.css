@@ -1,0 +1,9 @@
+.main-news {
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 2rem;
+
+}
